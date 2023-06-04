@@ -1,0 +1,186 @@
+
+
+
+
+@media  screen and (max-width:720px){
+        .sectiondiv {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .firstdivofportfoliodiv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+        }
+        .firstdivofportfoliodiv iframe {
+            width: 100%;
+            height: 65vh;
+        }
+    .card {
+        width: 100%;
+        height: 120vh;
+    }
+    .textdiv h2 {
+        color: #fff;
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 550;
+    }
+    .spanoftextdiv2 {
+        color: #fff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 20px;
+        width: 200px;
+        
+    }
+    .spanoftextdiv1 {
+        font-size: 15px;
+    }
+    .button1 a {
+        font-size: 15px;
+   
+    
+    }
+    .fa-brands {
+        font-size: 25px;
+    }
+    .someiconsdiv {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .button2 a {
+        font-size: 15px;
+    }
+    .textdiv {
+        margin-bottom: 100px;
+    }
+    .footer {
+        margin-top: 400px;
+    }
+    .headerdiv .ultag {
+        display: none;
+    }
+    .ultag.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        background-color: #06253a; 
+    }
+    .ultag.active li:first-child {
+        margin-top: 50px;
+    }
+     .ultag.active li:last-child {
+        margin-bottom: 50px;
+    }
+ 
+    .burger {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+    }
+
+}
+@media screen  and (max-width:600px) {
+    .burger {
+        display: flex;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        width: 200px;
+        position: absolute;
+        left: 55%;
+        z-index: 5;
+      }
+}
+@media screen  and (max-width:500px) {
+    .burger {
+        display: flex;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        width: 200px;
+        position: absolute;
+        left: 45%;
+        z-index: 5;
+      }
+      .spanoftextdiv2 {
+        color: #fff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 20px;
+        width: 150px;
+    }
+    .sectiondiv {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+}
+@media  screen and (max-width:420px) {
+    .maindivofs3 {
+        width: 60vw;
+    }
+    .gmaildiv {
+      font-size: 15px;
+    }
+    .gmaildiv a {
+        font-size: 15px;
+    }
+    .phonediv  {
+        font-size: 15px;
+    }
+    .phonediv a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .firstdivofportfoliodiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    .firstdivofportfoliodiv iframe {
+        width: 100%;
+
+    }
+   .card {
+    width: 100%;
+    /* height: auto; */
+   }
+}
+@media screen  and (max-width:380px) {
+    .burger {
+        display: flex;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        width: 200px;
+        position: absolute;
+        left: 35%;
+        z-index: 5;
+      }
+      .maindivofs3 {
+        width: 60vw;
+    }
+    .gmaildiv {
+      font-size: 13px;
+    }
+    .gmaildiv a {
+        font-size: 13px;
+    }
+    .phonediv  {
+        font-size: 13px;
+    }
+    .phonediv a {
+        font-size: 13px;
+    }
+}
+
